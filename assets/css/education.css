@@ -1,0 +1,75 @@
+.language {
+    text-align: center; 
+}
+
+.language ul li,
+.education li {
+    margin-bottom: 1rem;
+}
+
+.language ul li img,
+.education li img {
+    margin-bottom: 1rem; 
+}
+
+
+
+.language ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.language ul li {
+    margin: 0 1rem;
+}
+
+.language ul li img {
+    width: 50px; 
+    height: auto;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.education ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.education li {
+    margin-bottom: 2rem; 
+}
+
+.education .title {
+    margin: 0 0 0.5rem 0; 
+}
+
+.education .period {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.5rem; 
+}
+
+.education .period::before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/assets/images/icons/calender.svg);
+    margin-right: .5rem;
+}
+
+.education p {
+    margin: 0;
+}
