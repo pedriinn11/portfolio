@@ -34,31 +34,16 @@ body {
 
 .main::before {
     content: '';
-    background-image:url('../images/background.jpg');
+    background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover; /* Alterado para cobrir toda a tela */
     display: inline-block;
     position: fixed;
     top: 0;
     left: 0;
-    width: 140vw;
-    height: 100vh;
+    width: 100%; /* Alterado para cobrir toda a largura */
+    height: 100%;
     z-index: -1;
-}
-
-.main::after {
-    content: '';
-    background-image:url('../images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 140vw;
-    height: 100vh;
-    z-index: -1;
-    transform: rotate(180deg);
 }
 
 @media only screen and (min-width: 768px) {
