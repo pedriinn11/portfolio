@@ -34,7 +34,7 @@ body {
 
 .main::before {
     content: '';
-    background-image:url('..images/background.jpg');
+    background-image:url('../images/background.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -48,7 +48,7 @@ body {
 
 .main::after {
     content: '';
-    background-image:url('..images/background.jpg');
+    background-image:url('../images/background.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
