@@ -36,15 +36,16 @@ body {
     content: '';
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
-    background-size: cover; /* Alterado para cobrir toda a tela */
+    background-size: cover;
     display: inline-block;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Alterado para cobrir toda a largura */
-    height: 100%;
+    width: 100vw; /* Utiliza 100% da largura da viewport */
+    height: 100vh; /* Utiliza 100% da altura da viewport */
     z-index: -1;
 }
+
 
 @media only screen and (min-width: 768px) {
     .main {
